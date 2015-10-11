@@ -1,0 +1,11 @@
+"8019_drv.obj",
+"apptest.obj",
+"main.obj",
+"scom.obj",
+"uip_arp.obj",
+"Uip_arch.obj",
+"Uip.obj" 
+TO "uip91" 
+RAMSIZE(256) 
+CODE( 0X0000-0X7FFF )
+XDATA( 0X0000-0X7FFE )

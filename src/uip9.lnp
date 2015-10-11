@@ -1,0 +1,12 @@
+"uip.obj",
+"uip_arch.obj",
+"8019_drv.obj",
+"apptest.obj",
+"Sja1000.obj",
+"main.obj",
+"uip_arp.obj",
+"scom.obj" 
+TO "uip9" 
+RAMSIZE(256) 
+CODE( 0X0000-0X7FFF )
+XDATA( 0X0000-0X3E7F )

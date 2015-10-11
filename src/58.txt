@@ -1,0 +1,31 @@
+w78e58
+
+8051 based CMOS controller with high speed architecture
+36 I/O lines, 3 Timers/Counters, 8 Interrupts/2 priority levels, 
+Multiple-Time Programmable, Extra I/O Port, INT2, INT3
+32k ROM, 256 Bytes on-chip RAM
+
+CPU=IRAM(0 - 0xFF) IROM(0-0x7FFF) CLOCK(40000000)
+BOOK0=DATASHTS\WINBOND\W78E58.PDF("Data Sheet")
+BOOK1=DATASHTS\ADDBOOKS.PDF("Add on databooks")
+BOOK2=DATASHTS\Infineon\M500.PDF("Instruction Set Manual")
+SIM=S8051.DLL DP51.DLL("-p54")
+MON=S8051.DLL TP51.DLL("-p54")
+REGFILE=REG54.H("Winbond")
+
+
+
+w78e54b
+
+8051 based CMOS controller with high speed architecture
+36 I/O lines, 3 Timers/Counters, 8 Interrupts/2 priority levels, 
+Multiple-Time Programmable, Extra I/O Port, INT2, INT3, WDT
+16k ROM, 256 Bytes on-chip RAM
+
+CPU=IRAM(0 - 0xFF) IROM(0-0x3FFF) CLOCK(40000000)
+BOOK0=DATASHTS\WINBOND\W78E54b.PDF("Data Sheet")
+BOOK1=DATASHTS\ADDBOOKS.PDF("Add on databooks")
+BOOK2=DATASHTS\Infineon\M500.PDF("Instruction Set Manual")
+SIM=S8051.DLL DP51.DLL("-p52W")
+MON=S8051.DLL TP51.DLL("-p52W")
+REGFILE=REG54.H("Winbond")
